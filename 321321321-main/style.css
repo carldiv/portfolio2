@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Joti One", serif;
+  background-color: #151414;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2.5rem;
+  padding-left: 50px;
+}
+
+.logo span {
+  color: #e71515;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+  padding-right: 100px;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-decoration-color: #e71515;
+}
+
+a:hover {
+  color: #e71515;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+/*.main-content {
+    display: flex;
+    flex-direction: column;
+}*/
+.text1 {
+  color: #fff;
+  font-size: 96px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.text2 {
+  color: #fff;
+  font-size: 96px;
+  padding-left: 50px;
+}
+
+.text2 span {
+  color: #e71515;
+}
+
+.text3 {
+  font-size: 90px;
+  padding-left: 50px;
+  color: #fff;
+}
+
+.btn {
+  padding-left: 50px;
+}
+
+.btn a {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.ig {
+  padding-left: 30px;
+}
+
+/*.img1 {
+   display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 80%;
+    display: block;
+    margin-left: auto;
+    padding-top :  100px;
+}*/
+/*
+img {
+    float: right;
+}*/
+
+/*img {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.img1 {
+  position: absolute;
+  right: 500px;
+  bottom: 250px;
+  width: 260px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 2rem;
+    padding-left: 20px;
+  }
+
+  .nav-links {
+    font-size: 1.5rem;
+  }
+
+  .text1 {
+    font-size: 60px;
+  }
+
+  .text2 {
+    font-size: 60px;
+  }
+
+  .text2 span {
+    font-size: 60px;
+  }
+
+  .text3 {
+    font-size: 50px;
+  }
+
+  .btn a {
+    font-size: 30px;
+  }
+
+  .img1 {
+    display: flex;
+    height: 100px;
+  }
+}
